@@ -6,6 +6,7 @@ nav * {
 
 nav {
     font-family: Ubuntu;
+    font-size: x-large;
     background-color: #E95420;
     height: 80px;
 }
@@ -43,11 +44,12 @@ body h2 {
 
 #header {
     text-align: center;
+    color: #E95420;
+
 }
 
 #PageDescript {
-    height: 200px;
-    line-height: 200px;
+    line-height: 2em;
     width: 400px;
     text-align: center;
 }
@@ -55,6 +57,7 @@ body h2 {
 #pagetext {
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 80px;
 }
 
 #pagetext li {
@@ -62,21 +65,21 @@ body h2 {
 }
 
 #pagetext p {
-    line-height: 50px;
-    margin: 20px;
+    line-height: 2em;
+    margin-left: 20px;
 }
 
 #pagetext h3 {
     color: #E95420;
-    line-height: 80px;
-    margin: 20px;
+    line-height: 1em;
 }
 
 #personaltext {
-    line-height: 50px;
-    height: 50px;
+    font-size: large;
+    line-height: 2em;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 80px;
 }
 
 #personaltext b {
